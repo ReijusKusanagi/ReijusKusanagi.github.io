@@ -426,7 +426,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
 }
 .s5-desc {
     font-family: 'Inria Serif', serif;
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 2;
     color: #7a2020;
 }
@@ -519,7 +519,13 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
     align-items: center;
     gap: 16px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.s6-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(80,20,10,0.18);
+}
+
 .s6-card img {
     width: 70px;
     height: 70px;
@@ -528,7 +534,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
 }
 .s6-card p {
     font-family: 'Inria Serif', serif;
-    font-size: 0.95rem;
+    font-size: 1.0rem;
     color: white;
     margin: 0;
     letter-spacing: 0.5px;
@@ -548,7 +554,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
     font-size: 2.4rem;
 }
 .s6-btn {
-    background-color: #c1763a;
+    background-color: #7a2020;
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -560,7 +566,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
     transition: background 0.3s;
 }
 .s6-btn:hover {
-    background-color: #a3602e;
+    background-color: #c1763a;
     color: white;
 }
 
@@ -673,7 +679,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
         .about-story {
             background-color: #fdf6ee;
             background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23noise)' opacity='0.035'/%3E%3C/svg%3E");
-            padding: 72px 40px 60px;
+            padding: 72px 40px 40px;
         }
         .story-heading {
             font-family: 'Inria Serif', serif;
@@ -689,7 +695,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
         }
         .story-body p {
             font-family: 'Inria Serif', serif;
-            font-size: 1.05rem;
+            font-size: 1.10rem;
             font-weight: 300;
             line-height: 2;
             color: #4a2010;
@@ -761,7 +767,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
         .split-bg-overlay {
             position: absolute;
             inset: 0;
-            background: rgba(80, 15, 10, 0.72);
+            background: rgba(80, 15, 10, 0.52);
         }
         .split-content {
             position: relative;
@@ -795,8 +801,8 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
 
         /* ===== SCROLLING PHOTO STRIP ===== */
         .photo-scroll-section {
-            background-color: #f5ece0;
-            padding: 0;
+            background-color: #fdf6ee    margin-top: -20px;
+            padding: 20px 0;
             overflow: hidden;
         }
         .photo-scroll-track {
@@ -809,8 +815,8 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
             animation-play-state: paused;
         }
         .photo-scroll-track img {
-            width: 240px;
-            height: 180px;
+            width: 160px;
+            height: 120px;
             object-fit: cover;
             flex-shrink: 0;
             display: block;
@@ -1531,13 +1537,14 @@ body {
     font-weight: 400;
     font-style: italic;
     margin-bottom: 16px;
+    margin-top: -50px;
 }
 .contact-1-divider {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 12px;
-    margin-bottom: 24px;
+    margin-bottom: 4px;
 }
 .contact-1-divider .line {
     display: block;
@@ -1555,7 +1562,7 @@ body {
     font-weight: 300;
     line-height: 1.85;
     color: rgba(255,255,255,0.92);
-    margin: 0;
+    margin: 5px;
 }
 
 /* Section 2: Contact Form */
