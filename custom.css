@@ -767,10 +767,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
 .split-bg-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(
-        rgba(122, 32, 32, 0.5),
-        rgba(122, 32, 32, 0.5)
-    );
+    background: rgba(60, 55, 50, 0.75);
 }
         .split-content {
             position: relative;
