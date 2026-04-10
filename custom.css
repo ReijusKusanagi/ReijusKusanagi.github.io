@@ -43,7 +43,7 @@
 }
 
 .nav-link:hover {
-    color: #f4a261 !important; /* same gold/orange as active */
+    color: #f4a261 !important; 
 }
 
 
@@ -77,7 +77,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px; /* slightly more spacing */
+    gap: 20px;
 }
 
 .hero-logo {
@@ -91,7 +91,6 @@
     margin: 0;
 }
 
-/* RIZ'S (Script Logo) */
 .hero-title,
 .brand-main {
     font-family: 'Great Vibes', cursive;
@@ -141,9 +140,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Icon Navigation Section */
 .icon-nav-section {
-    background-color: #f5ece1; /* Cream/Off-white background */
+    background-color: #f5ece1; 
     padding: 60px 0;
     text-align: center;
 }
@@ -151,7 +149,7 @@ body {
 .icon-container {
     display: flex;
     justify-content: center;
-    gap: 80px; /* Adjust spacing between icons */
+    gap: 80px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -169,21 +167,20 @@ body {
 }
 
 .icon-item img {
-    width: 60px; /* Adjust based on your icon size */
+    width: 60px;
     height: auto;
     margin-bottom: 15px;
 }
 
 .icon-item p {
-    color: #c06c39; /* Copper/Orange color from image */
+    color: #c06c39;
     font-family: 'Serif', 'Georgia', serif;
     font-size: 1.2rem;
     font-weight: 500;
 }
 
-/* Memorable Section Heading */
 .memorable-section {
-    background-color: #333; /* Dark background as seen in the image transition */
+    background-color: #333; /
     padding: 80px 20px 40px 20px;
     text-align: center;
     color: white;
@@ -745,8 +742,8 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
     object-fit: contain;
     margin-right: 60px;
     flex-shrink: 0;
-    opacity: 1; /* Change from 0.9 to 1 */
-    filter: none; /* Ensure no filters are inherited */
+    opacity: 1;
+    filter: none;
 }
         @keyframes marquee-brand {
             0%   { transform: translateX(0); }
@@ -829,7 +826,6 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
             100% { transform: translateX(-50%); }
         }
 
-        /* ===== RESPONSIVE ===== */
         @media (max-width: 768px) {
             .about-hero-content h1 { font-size: 2rem; letter-spacing: 4px; }
             .split-content { flex-direction: column; }
@@ -1041,7 +1037,7 @@ body {
     font-weight: 400;
 }
 
-/* --- Brand Bar (shared, reused from about page) --- */
+/* --- Brand Bar --- */
 .brand-bar {
     background-color: #81312E;
     padding: 14px 0;
@@ -1136,7 +1132,6 @@ body {
     flex-shrink: 0;
 }
 
-/* Add-ons row */
 .services-2-addons {
     display: flex;
     justify-content: center;
@@ -1251,7 +1246,6 @@ body {
     letter-spacing: 0;
 }
 
-/* 3-card group per slide */
 .sig-slide-group {
     display: flex;
     justify-content: center;
@@ -1261,7 +1255,6 @@ body {
     min-height: 420px;
 }
 
-/* Individual card */
 .carousel-card {
     background-color: #c1763a;
     border-radius: 24px;
@@ -1313,7 +1306,6 @@ body {
     margin: 0;
 }
 
-/* Arrow buttons */
 .sig-prev,
 .sig-next {
     width: auto;
@@ -1332,7 +1324,7 @@ body {
     color: #c1763a;
 }
 
-/* Dots */
+
 .sig-dots {
     position: static;
     margin-top: 36px;
@@ -1353,7 +1345,6 @@ body {
     background-color: #7a2020;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .sig-slide-group { flex-direction: column; align-items: center; padding-top: 0; gap: 100px; }
     .carousel-card { width: 80%; margin: 0 auto; }
@@ -1432,7 +1423,6 @@ body {
     border-bottom: 2px solid #7a2020;
 }
 
-/* Panels */
 .menu-panel {
     display: none;
 }
@@ -1440,7 +1430,7 @@ body {
     display: block;
 }
 
-/* Grid — 3 columns, 2 rows = 6 cards */
+
 .menu-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1448,8 +1438,6 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
-
-/* 5-card grid: row 1 has 3, row 2 has 2 centered */
 .menu-grid-5 {
     grid-template-columns: repeat(6, 1fr);
 }
@@ -1846,7 +1834,7 @@ body {
     .faq-body { padding: 32px 16px 48px; }
 }
 
-/* ===== INDEX.HTML MOBILE RESPONSIVE FIXES ===== */
+/* ===== MOBILE RESPONSIVE FIXES ===== */
 
 @media (max-width: 768px) {
 
@@ -1983,7 +1971,6 @@ body {
 
 @media (max-width: 480px) {
 
-    /* Hero */
     .hero-title {
         font-size: 44px;
     }
@@ -1994,20 +1981,17 @@ body {
         width: 90%;
     }
 
-    /* Icon nav — single column */
     .icon-container {
         gap: 24px;
     }
     .icon-item {
         width: calc(50% - 24px);
     }
-
-    /* Section 4 — single column */
+    
     .s4-item {
         flex: 1 1 100%;
     }
 
-    /* Section 6 — single column */
     .s6-grid {
         grid-template-columns: 1fr;
     }
