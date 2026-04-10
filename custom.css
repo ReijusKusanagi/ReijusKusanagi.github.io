@@ -521,6 +521,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
 .s6-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 12px 28px rgba(80,20,10,0.18);
+    background-color: #7a2020;
 }
 
 .s6-card img {
