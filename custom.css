@@ -764,11 +764,14 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
             inset: 0;
             background: url("images/2ABOUT/bg2.jpg") center/cover no-repeat;
         }
-        .split-bg-overlay {
-            position: absolute;
-            inset: 0;
-            background: rgba(80, 15, 10, 0.52);
-        }
+.split-bg-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        rgba(122, 32, 32, 0.5),
+        rgba(122, 32, 32, 0.5)
+    );
+}
         .split-content {
             position: relative;
             z-index: 2;
@@ -780,9 +783,7 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
             padding: 72px 60px;
             color: white;
         }
-        .split-half + .split-half {
-            border-left: 1px solid rgba(255,255,255,0.2);
-        }
+
         .split-half h2 {
             font-family: 'Great Vibes', cursive;
             font-size: 3.2rem;
