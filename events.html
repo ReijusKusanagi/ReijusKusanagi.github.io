@@ -4,6 +4,250 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Events – Riz's Event Catering</title>
+
+         <link rel="icon" href="images/rizlogo.png" type="image/png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="events.css">
+</head>
+
+<body id="top">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+<a class="navbar-brand" href="index.html">
+    <img src="images/rizeventcatering.png" alt="Riz's Event Catering Services" class="navbar-logo-img">
+</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">EVENTS</a></li>
+                <li class="nav-item"><a class="nav-link" href="services.html">SERVICES</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- INTRO -->
+<section class="events-intro">
+    <h2>Showcasing Celebrations by <span class="script">Riz's</span></h2>
+    <p>
+        Take a look at some of the events Riz's Event Catering Services has had the pleasure to cater. From
+        birthdays and weddings to family gatherings, corporate events, and everything in between, every setup is
+        crafted with care, attention to detail, and delicious food.
+    </p>
+</section>
+
+<!-- VIDEO -->
+<div class="events-video-wrap">
+    <video controls autoplay muted loop playsinline>
+        <source src="images/3EVENTS/RizsVid.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+<!-- GALLERY: 16 rows × 4 photos = 64 photos -->
+<section class="events-gallery">
+    <div class="gallery-grid" id="galleryGrid">
+
+        <!-- Row 1 -->
+        <img src="images/3EVENTS/1.1.jpg" alt="Event 1" onclick="openLightbox(0)">
+        <img src="images/3EVENTS/1.2.jpg" alt="Event 2" onclick="openLightbox(1)">
+        <img src="images/3EVENTS/1.3.jpg" alt="Event 3" onclick="openLightbox(2)">
+        <img src="images/3EVENTS/1.4.jpg" alt="Event 4" onclick="openLightbox(3)">
+
+        <!-- Row 2 -->
+        <img src="images/3EVENTS/2.1.jpg" alt="Event 5" onclick="openLightbox(4)">
+        <img src="images/3EVENTS/2.2.jpg" alt="Event 6" onclick="openLightbox(5)">
+        <img src="images/3EVENTS/2.3.jpg" alt="Event 7" onclick="openLightbox(6)">
+        <img src="images/3EVENTS/2.4.jpg" alt="Event 8" onclick="openLightbox(7)">
+
+        <!-- Row 3 -->
+        <img src="images/3EVENTS/3.1.jpg" alt="Event 9" onclick="openLightbox(8)">
+        <img src="images/3EVENTS/3.2.jpg" alt="Event 10" onclick="openLightbox(9)">
+        <img src="images/3EVENTS/3.3.jpg" alt="Event 11" onclick="openLightbox(10)">
+        <img src="images/3EVENTS/3.4.jpg" alt="Event 12" onclick="openLightbox(11)">
+
+        <!-- Row 4 -->
+        <img src="images/3EVENTS/4.1.jpg" alt="Event 13" onclick="openLightbox(12)">
+        <img src="images/3EVENTS/4.2.jpg" alt="Event 14" onclick="openLightbox(13)">
+        <img src="images/3EVENTS/4.3.jpg" alt="Event 15" onclick="openLightbox(14)">
+        <img src="images/3EVENTS/4.4.jpg" alt="Event 16" onclick="openLightbox(15)">
+
+        <!-- Row 5 -->
+        <img src="images/3EVENTS/5.1.jpg" alt="Event 17" onclick="openLightbox(16)">
+        <img src="images/3EVENTS/5.2.jpg" alt="Event 18" onclick="openLightbox(17)">
+        <img src="images/3EVENTS/5.3.jpg" alt="Event 19" onclick="openLightbox(18)">
+        <img src="images/3EVENTS/5.4.jpg" alt="Event 20" onclick="openLightbox(19)">
+
+        <!-- Row 6 -->
+        <img src="images/3EVENTS/6.1.jpg" alt="Event 21" onclick="openLightbox(20)">
+        <img src="images/3EVENTS/6.2.jpg" alt="Event 22" onclick="openLightbox(21)">
+        <img src="images/3EVENTS/6.3.jpg" alt="Event 23" onclick="openLightbox(22)">
+        <img src="images/3EVENTS/6.4.jpg" alt="Event 24" onclick="openLightbox(23)">
+
+        <!-- Row 7 -->
+        <img src="images/3EVENTS/7.1.jpg" alt="Event 25" onclick="openLightbox(24)">
+        <img src="images/3EVENTS/7.2.jpg" alt="Event 26" onclick="openLightbox(25)">
+        <img src="images/3EVENTS/7.3.jpg" alt="Event 27" onclick="openLightbox(26)">
+        <img src="images/3EVENTS/7.4.jpg" alt="Event 28" onclick="openLightbox(27)">
+
+        <!-- Row 8 -->
+        <img src="images/3EVENTS/8.1.jpg" alt="Event 29" onclick="openLightbox(28)">
+        <img src="images/3EVENTS/8.2.jpg" alt="Event 30" onclick="openLightbox(29)">
+        <img src="images/3EVENTS/8.3.jpg" alt="Event 31" onclick="openLightbox(30)">
+        <img src="images/3EVENTS/8.4.jpg" alt="Event 32" onclick="openLightbox(31)">
+
+        <!-- Row 9 -->
+        <img src="images/3EVENTS/9.1.jpg" alt="Event 33" onclick="openLightbox(32)">
+        <img src="images/3EVENTS/9.2.jpg" alt="Event 34" onclick="openLightbox(33)">
+        <img src="images/3EVENTS/9.3.jpg" alt="Event 35" onclick="openLightbox(34)">
+        <img src="images/3EVENTS/9.4.jpg" alt="Event 36" onclick="openLightbox(35)">
+
+        <!-- Row 10 -->
+        <img src="images/3EVENTS/10.1.jpg" alt="Event 37" onclick="openLightbox(36)">
+        <img src="images/3EVENTS/10.2.jpg" alt="Event 38" onclick="openLightbox(37)">
+        <img src="images/3EVENTS/10.3.jpg" alt="Event 39" onclick="openLightbox(38)">
+        <img src="images/3EVENTS/10.4.jpg" alt="Event 40" onclick="openLightbox(39)">
+
+        <!-- Row 11 -->
+        <img src="images/3EVENTS/11.1.jpg" alt="Event 41" onclick="openLightbox(40)">
+        <img src="images/3EVENTS/11.2.jpg" alt="Event 42" onclick="openLightbox(41)">
+        <img src="images/3EVENTS/11.3.jpg" alt="Event 43" onclick="openLightbox(42)">
+        <img src="images/3EVENTS/11.4.jpg" alt="Event 44" onclick="openLightbox(43)">
+
+        <!-- Row 12 -->
+        <img src="images/3EVENTS/12.1.jpg" alt="Event 45" onclick="openLightbox(44)">
+        <img src="images/3EVENTS/12.2.jpg" alt="Event 46" onclick="openLightbox(45)">
+        <img src="images/3EVENTS/12.3.jpg" alt="Event 47" onclick="openLightbox(46)">
+        <img src="images/3EVENTS/12.4.jpg" alt="Event 48" onclick="openLightbox(47)">
+
+        <!-- Row 13 -->
+        <img src="images/3EVENTS/13.1.jpg" alt="Event 49" onclick="openLightbox(48)">
+        <img src="images/3EVENTS/13.2.jpg" alt="Event 50" onclick="openLightbox(49)">
+        <img src="images/3EVENTS/13.3.jpg" alt="Event 51" onclick="openLightbox(50)">
+        <img src="images/3EVENTS/13.4.jpg" alt="Event 52" onclick="openLightbox(51)">
+
+        <!-- Row 14 -->
+        <img src="images/3EVENTS/14.1.jpg" alt="Event 53" onclick="openLightbox(52)">
+        <img src="images/3EVENTS/14.2.jpg" alt="Event 54" onclick="openLightbox(53)">
+        <img src="images/3EVENTS/14.3.jpg" alt="Event 55" onclick="openLightbox(54)">
+        <img src="images/3EVENTS/14.4.jpg" alt="Event 56" onclick="openLightbox(55)">
+
+        <!-- Row 15 -->
+        <img src="images/3EVENTS/15.1.jpg" alt="Event 57" onclick="openLightbox(56)">
+        <img src="images/3EVENTS/15.2.jpg" alt="Event 58" onclick="openLightbox(57)">
+        <img src="images/3EVENTS/15.3.jpg" alt="Event 59" onclick="openLightbox(58)">
+        <img src="images/3EVENTS/15.4.jpg" alt="Event 60" onclick="openLightbox(59)">
+
+        <!-- Row 16 -->
+        <img src="images/3EVENTS/16.1.jpg" alt="Event 61" onclick="openLightbox(60)">
+        <img src="images/3EVENTS/16.2.jpg" alt="Event 62" onclick="openLightbox(61)">
+        <img src="images/3EVENTS/16.3.jpg" alt="Event 63" onclick="openLightbox(62)">
+        <img src="images/3EVENTS/16.4.jpg" alt="Event 64" onclick="openLightbox(63)">
+
+    </div>
+</section>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightboxOutside(event)">
+    <span class="lightbox-close" onclick="closeLightbox()">×</span>
+    <button class="lightbox-prev" onclick="shiftLightbox(-1)">&#8249;</button>
+    <img src="" alt="Preview" id="lightboxImg">
+    <button class="lightbox-next" onclick="shiftLightbox(1)">&#8250;</button>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-main">
+
+    <div class="footer-col footer-brand-col">
+      <img src="images/rizeventcatering.png" alt="Riz's Event Catering Services" class="footer-logo">
+      <p class="footer-tagline">Good Food, Better Service</p>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/RklgBatac" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScOKK3EVxcAtRAevqTeMjaeSu-rWHEYon6CZJPagAW4Mcjpuw/viewform" target="_blank"><img src="images/mail.png" alt="Email"></a>
+      </div>
+    </div>
+
+    <div class="footer-col footer-links-col">
+      <h4 class="footer-col-title">Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col footer-cta-col">
+      <h4 class="footer-col-title">Get in Touch</h4>
+      <p class="footer-cta-desc">Have questions about your event? Send us a message and we'll help you plan it perfectly.</p>
+      <a href="contact.html#contact"class="footer-contact-btn">Send a Message</a>
+    </div>
+
+  </div>
+
+<div class="footer-bottom">
+  <a href="#top" class="footer-back-top">BACK TO TOP</a>
+  <p class="footer-copy">© 2026 Riz's Event Catering Services | All rights reserved.</p>
+</div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script>
+    // Collect all gallery image sources
+    const galleryImgs = Array.from(document.querySelectorAll('.gallery-grid img'));
+    const srcs = galleryImgs.map(img => img.src);
+    let currentIndex = 0;
+
+    function openLightbox(index) {
+        currentIndex = index;
+        document.getElementById('lightboxImg').src = srcs[index];
+        document.getElementById('lightbox').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+        document.getElementById('lightbox').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+
+    function closeLightboxOutside(e) {
+        if (e.target === document.getElementById('lightbox')) closeLightbox();
+    }
+
+    function shiftLightbox(dir) {
+        currentIndex = (currentIndex + dir + srcs.length) % srcs.length;
+        document.getElementById('lightboxImg').src = srcs[currentIndex];
+    }
+
+    // Keyboard navigation
+    document.addEventListener('keydown', e => {
+        if (!document.getElementById('lightbox').classList.contains('active')) return;
+        if (e.key === 'ArrowRight') shiftLightbox(1);
+        if (e.key === 'ArrowLeft')  shiftLightbox(-1);
+        if (e.key === 'Escape')     closeLightbox();
+    });
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events – Riz's Event Catering</title>
     
     <link rel="icon" href="images/rizlogo.png" type="image/png">
     
