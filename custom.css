@@ -1000,9 +1000,9 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
 
         /* ===== SCROLLING PHOTO STRIP ===== */
         .photo-scroll-section {
-            background-color: #fdf6ee    
+            background-color: #fdf6ee;    
             margin-top: -20px;
-            padding: 20px 0;
+            padding: 20px 0 0;
             overflow: hidden;
         }
         .photo-scroll-track {
@@ -1345,13 +1345,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
-    gap: 0 20px;
+    flex-wrap: wrap;
+    gap: 10px 20px;
     border-top: 1px solid #c9b49a;
     border-bottom: 1px solid #c9b49a;
-    padding: 18px 0;
+    padding: 18px 16px;
     max-width: 960px;
     margin: 0 auto;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .services-2-addons span {
@@ -1429,7 +1431,7 @@ body {
     .services-2-grid { flex-direction: column; align-items: center; }
     .services-2-divider { width: 80%; height: 1px; min-height: unset; align-self: auto; }
     .services-2-item { padding: 30px 20px; }
-    .services-2-addons { gap: 10px 20px; }
+    .services-2-addons { gap: 8px 16px; padding: 14px 16px; }
     .services-3-title { font-size: 1.8rem; }
     .services-3-title .script { font-size: 2.6rem; }
 }
