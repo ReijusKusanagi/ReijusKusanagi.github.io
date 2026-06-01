@@ -779,6 +779,45 @@ background: linear-gradient(rgba(40,20,5,0.55), rgba(40,20,5,0.55)),
     margin: 0;
     letter-spacing: 1px;
 }
+.footer-credits {
+    font-family: 'Inria Serif', serif;
+    font-size: 0.78rem;
+    color: rgba(255,255,255,0.5);
+    margin: 0;
+    letter-spacing: 1px;
+}
+.footer-school-logos {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+.footer-school-logos a img {
+    height: 28px;
+    width: auto;
+    opacity: 0.9;
+    transition: opacity 0.2s;
+    vertical-align: middle;
+}
+.footer-school-logos a:nth-child(2) img {
+    height: 33px;
+}
+.footer-school-logos a:hover img {
+    opacity: 1;
+}
+.footer-bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 10px;
+}
+.footer-credits-divider {
+    color: rgba(255,255,255,0.3);
+    font-family: 'Inria Serif', serif;
+    font-size: 0.78rem;
+}
 
 .footer-links-col {
     display: flex;
